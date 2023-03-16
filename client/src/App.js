@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Notes from './components/Notes';
+import TaskItem from './components/TaskItem';
+import Task from './components/Task';
 
 function App() {
   return (
     <div className="App">
-      <Notes />
+      <Task />
+      <TaskItem />
     </div>
   );
 }
